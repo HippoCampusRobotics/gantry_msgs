@@ -1,0 +1,3 @@
+std_msgs/Header header
+bool lower_limit_reached
+bool upper_limit_reached
