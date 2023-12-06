@@ -39,6 +39,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/MotorPosition.msg"
     "msg/MotorVelocity.msg"
     "msg/MotorLimitSwitches.msg"
+    "msg/MotorStatus.msg"
+    "msg/PositionReached.msg"
     "srv/GetFloatDrive.srv"
     "srv/SetFloatDrive.srv"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
