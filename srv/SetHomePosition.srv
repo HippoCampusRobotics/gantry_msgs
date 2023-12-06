@@ -1,0 +1,4 @@
+MotorPosition position
+---
+bool success
+string message

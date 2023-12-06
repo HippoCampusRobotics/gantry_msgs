@@ -43,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/PositionReached.msg"
     "srv/GetFloatDrive.srv"
     "srv/SetFloatDrive.srv"
+    "srv/SetHomePosition.srv"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
 )
 
