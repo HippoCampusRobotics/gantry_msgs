@@ -41,6 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/MotorLimitSwitches.msg"
     "msg/MotorStatus.msg"
     "msg/PositionReached.msg"
+    "msg/TransmissionErrors.msg"
     "srv/GetFloatDrive.srv"
     "srv/SetFloatDrive.srv"
     "srv/SetHomePosition.srv"
